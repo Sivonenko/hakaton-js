@@ -1,11 +1,11 @@
 .gallery-list {
-  margin: 0 auto;
+  margin: 30px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   @media screen and (min-width: 768px) {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
@@ -33,7 +33,7 @@
     &:not(:last-child) {
       margin-bottom: 20px;
     }
-
+  }
     &__image {
       object-fit: cover;
       width: 100%;
@@ -92,5 +92,5 @@
       }
     }
   }
-}
-}
+
+
